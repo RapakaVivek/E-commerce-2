@@ -1,0 +1,127 @@
+
+.cart{
+  display: flex;
+  column-gap: 50px;
+  font-size: 30px;
+  color: rgb(248, 149, 0);
+  margin-top: 10px;
+}
+.Nav{
+  display: flex;
+  column-gap: 190px;
+  padding-left: 10px;
+  padding-top: 20px;
+  background-color: rgb(185, 182, 182);
+
+}
+.search input{
+  height: 50px;
+  width: 600px;
+  border-radius: 40px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  border: none;
+}
+.search-icon{
+  margin-left: -40px;
+}
+.logo h1{
+  margin-top: -0.5px;
+  font-size: 40px;
+}
+.hero img{
+  height: 570px;
+  width: 100%;
+  
+}
+.feature{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 80px;
+  text-align: center;
+  margin-left: 100px;
+}
+.featurehead h1{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.box img{
+  height: 300px;
+  width: 250px;
+}
+.box{
+  height: 400px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(223, 220, 220);
+  padding: 20px ;
+  transition: transform 0.3s ease;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+.box button{
+  height: 50px;
+  width: 150px;
+  background-color: rgb(199, 174, 32);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  
+  font-size:18px;
+  &:hover{
+    background-color:rgb(255, 217, 0) ;
+  }
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-top: 50px;
+}
+
+.banner {
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 28%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.banner:hover {
+  transform: scale(1.05);
+}
+
+.banner-container h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.banner-container p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+.product{
+  display: flex;
+  column-gap: 10px;
+  padding: 20px;
+}
+.product1{
+  width: 30%;
+  height: 250px;
+  background-color: rgb(224, 227, 230);
+  border-radius: 10px;
+  text-align: center;
+  position: sticky;
+  top: 10px;
+}
+.product2{
+  width: 70%;
+  background-color: rgb(224, 227, 230);
+  border-radius: 10px;
+}
